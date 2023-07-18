@@ -22,14 +22,14 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>published</status>
+        <status>draft</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>pankajj@hexaware.com</sys_created_by>
         <sys_created_on>2023-07-18 08:48:09</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>01f359aadbc4f9506d60a0ced3961912</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Add User to AD Group-Git</sys_name>
         <sys_overrides/>
         <sys_package display_value="ADProject" source="x_hete_adproject">54e21de6dbc4f9506d60a0ced396197b</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="ADProject">54e21de6dbc4f9506d60a0ced396197b</sys_scope>
         <sys_update_name>sys_hub_flow_01f359aadbc4f9506d60a0ced3961912</sys_update_name>
         <sys_updated_by>pankajj@hexaware.com</sys_updated_by>
-        <sys_updated_on>2023-07-18 08:52:34</sys_updated_on>
+        <sys_updated_on>2023-07-18 09:25:03</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=01f359aadbc4f9506d60a0ced3961912"/>
@@ -157,13 +157,41 @@
         <sys_created_by>pankajj@hexaware.com</sys_created_by>
         <sys_created_on>2023-07-18 08:50:46</sys_created_on>
         <sys_id>af84512edbc4f9506d60a0ced39619c2</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="ADProject">54e21de6dbc4f9506d60a0ced396197b</sys_scope>
         <sys_updated_by>pankajj@hexaware.com</sys_updated_by>
-        <sys_updated_on>2023-07-18 08:52:34</sys_updated_on>
+        <sys_updated_on>2023-07-18 09:19:48</sys_updated_on>
         <ui_id>408b6425-ba0a-44f1-82fc-7f94be660f3b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=af84512edbc4f9506d60a0ced39619c2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>af84512edbc4f9506d60a0ced39619c2</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pankajj@hexaware.com</sys_created_by>
+        <sys_created_on>2023-07-18 09:13:39</sys_created_on>
+        <sys_id>6ac91da6db08f9506d60a0ced39619e4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>pankajj@hexaware.com</sys_updated_by>
+        <sys_updated_on>2023-07-18 09:19:32</sys_updated_on>
+        <value/>
+        <variable display_value="inputhostname">fcf39a35dbef29106d60a0ced396190a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>af84512edbc4f9506d60a0ced39619c2</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pankajj@hexaware.com</sys_created_by>
+        <sys_created_on>2023-07-18 09:19:48</sys_created_on>
+        <sys_id>f43b51aadb08f9506d60a0ced396196a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pankajj@hexaware.com</sys_updated_by>
+        <sys_updated_on>2023-07-18 09:19:48</sys_updated_on>
+        <value>123</value>
+        <variable display_value="sample">470b1d6adb08f9506d60a0ced3961908</variable>
+    </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_78f39a35dbef29106d60a0ced3961907^id=af84512edbc4f9506d60a0ced39619c2"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=af84512edbc4f9506d60a0ced39619c2"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=af84512edbc4f9506d60a0ced39619c2"/>
@@ -185,7 +213,7 @@
         <sys_created_on>2023-07-18 08:50:46</sys_created_on>
         <sys_id>9384512edbc4f9506d60a0ced3961985</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>sctask</sys_name>
         <sys_package display_value="ADProject" source="x_hete_adproject">54e21de6dbc4f9506d60a0ced396197b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ADProject">54e21de6dbc4f9506d60a0ced396197b</sys_scope>
@@ -399,7 +427,7 @@
         <sys_created_on>2023-07-18 08:52:30</sys_created_on>
         <sys_id>45f4916edbc4f9506d60a0ced39619a1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>sctask</sys_name>
         <sys_package display_value="ADProject" source="x_hete_adproject">54e21de6dbc4f9506d60a0ced396197b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ADProject">54e21de6dbc4f9506d60a0ced396197b</sys_scope>
